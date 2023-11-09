@@ -1,0 +1,17 @@
+.home-page {
+  padding: 30px 50px;
+  ul {
+    li {
+      margin-bottom: 20px;
+      cursor: pointer;
+      list-style: none;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: rgb(38, 205, 38);
+      }
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}
